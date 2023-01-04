@@ -27,6 +27,10 @@
         <label th:for="email">Email</label>
         <input type="text" name="email" th:id="email" th:value="${UserToAdd.getEmail()}"><br/>
       </p>
+      <p>
+        <label th:for="password">Password</label>
+        <input type="text" name="password" th:id="password" th:value="${UserToAdd.getPassword()}"><br/>
+      </p>
     </fieldset>
     <button type="submit">Save user</button>
   </form>
